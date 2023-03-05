@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <!-- GOOGLE FONTS (Work Sans: 300, 400, 500 600 and 700 - DM sans: 400, 500, 600 AND 700) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Work+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- JS -->
+  <script defer src="./assets/js/script.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="#" class="header-logo">
+        <img src="./assets/images-and-icons/images/header/logo.svg" alt="" />
+      </a>
+      <nav class="header-navbar">
+        <ul class="header-menu-center">
+          <li class="header-menu-item">
+            <a href="#home" class="header-menu-link"> Home </a>
+          </li>
+          <li class="header-menu-item">
+            <a href="#shop" class="header-menu-link"> Shop All </a>
+          </li>
+          <li class="header-menu-item">
+            <a href="#about" class="header-menu-link"> About Us </a>
+          </li>
+          <li class="header-menu-item">
+            <a href="#" class="header-menu-link"> Contact Us </a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="header-menu-right">
+        <li class="header-menu-item">
+          <a href="#" class="header-menu-link">
+            <img src="./assets/images-and-icons/icons/header/search.svg" alt="" />
+          </a>
+        </li>
+        <li class="header-menu-item">
+          <div class="cart-items-number">
+            <span>0</span>
+          </div>
+          <a href="#" class="header-menu-link">
+            <img src="./assets/images-and-icons/icons/header/bag.svg" alt="" />
+          </a>
+        </li>
+        <li class="header-menu-item">
+          <button class="toggle-mobile-menu">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+
+  <section class="s-hero" id="home">
+    <div class="s-hero-images">
+      <div class="hero-bg-image-left"></div>
+      <div class="hero-bg-image-right"></div>
+    </div>
+    <div class="s-hero-card">
+      <div class="s-hero-card-text">
+        <h1>The Extraordinary Care You Deserve</h1>
+        <p>The fresh new style you’ll were on repeat</p>
+      </div>
+      <div class="s-hero-card-button">
+        <a href="#">Shop The Collection</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="s-purchase-info container" id="">
+    <div class="s-purchase-info-wrapper">
+      <img src="./assets/images-and-icons/icons/s-purchase-informations/delivery.svg" alt="">
+      <h3> Free Delivery </h3>
+      <p> We offer free delivery for all orders over $80 and with the order that contain 10 or more items. </p>
+    </div>
+
+    <div class="s-purchase-info-wrapper">
+      <img src="./assets/images-and-icons/icons/s-purchase-informations/refund.svg" alt="">
+      <h3> 30 - Days Returns </h3>
+      <p> At BLINK, we offer complimentary 30-day returns, so that you can make sure your purchase is just right </p>
+    </div>
+
+    <div class="s-purchase-info-wrapper">
+      <img src="./assets/images-and-icons/icons/s-purchase-informations/warranty.svg" alt="">
+      <h3> International Warranty </h3>
+      <p> Our quest for excellence has allowed us to extend the international warranty to 5 years. </p>
+    </div>
+  </section>
+
+  <section class="s-glasses-collections" id="shop">
+    <div class="container">
+      <div class="headline">
+
+        <h2> Shop All </h2>
+        <div class="categories">
+          <button id="button-most-popular"> Most Popular </button>
+          <button id="button-best-sellers"> Best sellers</button>
+          <button id="button-lowest-price"> Lowest price </button>
+        </div>
+      </div>
+
+      <div class="glasses-list" id="content-most-popular">
+
+        <div class="glasses">
+          <div class="glasses-wrapper">
+            <h4> Adjustable</h4>
+            <img class="glasses-image" src="./assets/images-and-icons/images/s-glasses-collections/glasses-1.svg" alt="">
+            <img class="hover-image" src="./assets/images-and-icons/images/s-glasses-collections/user1.jpg" alt="">
+          </div>
+          <div class="glasses-name-and-price">
+            <h5 class="glasses-name"> Gifford (Extra Narrow) </h5>
+            <h5 class="price">
+              <p>$102.00</p>
+              <del> $110.00 USD </del>
+            </h5>
+          </div>
+        </div>
+
+        <div class="glasses">
+          <div class="glasses-wrapper">
+            <h4> New In </h4>
+            <img class="glasses-image" src="./assets/images-and-icons/images/s-glasses-collections/glasses-2.svg" alt="">
+            <img class="hover-image" src="./assets/images-and-icons/images/s-glasses-collections/user2.jpg" alt="">
+          </div>
+          <div class="glasses-name-and-price">
+            <h5 class="glasses-name"> Vincent Chase (Narrow) </h5>
+            <h5 class="price">
+              <p>$95.00</p>
+              <del> $100.00 USD </del>
+            </h5>
+          </div>
+        </div>
+
+        <div class="glasses">
+          <div class="glasses-wrapper">
+            <h4> Narrow Bridge </h4>
+            <img class="glasses-image" src="./assets/images-and-icons/images/s-glasses-collections/glasses-3.svg" alt="">
+            <img class="hover-image" src="./assets/images-and-icons/images/s-glasses-collections/user3.jpg" alt="">
+          </div>
+          <div class="glasses-name-and-price">
+            <h5 class="glasses-name"> John Jacobs (Medium) </h5>
+            <h5 class="price">
+              <p>$110.00</p>
+              <del> $115.00 USD </del>
+            </h5>
+          </div>
+        </div>
+
+        <div class="glasses">
+          <div class="glasses-wrapper">
+            <h4> Low Crest </h4>
+            <img class="glasses-image" src="./assets/images-and-icons/images/s-glasses-collections/glasses-4.svg" alt="">
+            <img class="hover-image" src="./assets/images-and-icons/images/s-glasses-collections/user4.jpg" alt="">
+          </div>
+          <div class="glasses-name-and-price">
+            <h5 class="glasses-name"> Bunning (Medium) </h5>
+            <h5 class="price">
+              <p>$85.00</p>
+            </h5>
+          </div>
+        </div>
+
+        <div class="glasses">
+          <div class="glasses-wrapper">
+            <h4> Wide Bridge </h4>
+            <img class="glasses-image" src="./assets/images-and-icons/images/s-glasses-collections/glasses-5.svg" alt="">
+            <img class="hover-image" src="./assets/images-and-icons/images/s-glasses-collections/user5.jpg" alt="">
+          </div>
+          <div class="glasses-name-and-price">
+            <h5 class="glasses-name"> Gifford (Wide) </h5>
+            <h5 class="price">
+              <p>$98.00</p>
+              <del> $100.00 USD </del>
+            </h5>
+          </div>
+        </div>
+
+        <div class="glasses">
+          <div class="glasses-wrapper">
+            <h4> Narrow Bridge </h4>
+            <img class="glasses-image" src="./assets/images-and-icons/images/s-glasses-collections/glasses-6.svg" alt="">
+            <img class="hover-image" src="./assets/images-and-icons/images/s-glasses-collections/user6.jpg" alt="">
+          </div>
+          <div class="glasses-name-and-price">
+            <h5 class="glasses-name"> Eckford (Extra Narrow) </h5>
+            <h5 class="price">
+              <p>$102.00</p>
+            </h5>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="glasses-list" id="content-best-sellers">
+
+        <div class="glasses">
+          <div class="glasses-wrapper">
+            <h4> Adjustable</h4>
+            <img class="glasses-image" src="./assets/images-and-icons/images/s-glasses-collections/glasses-4.svg" alt="">
+            <img class="hover-image" src="./assets/images-and-icons/images/s-glasses-collections/user4.jpg" alt="">
+          </div>
+          <div class="glasses-name-and-price">
+            <h5 class="glasses-name"> Gifford (Extra Narrow) </h5>
+            <h5 class="price">
+              <p>$102.00</p>
+              <del> $110.00 USD </del>
+            </h5>
+          </div>
+        </div>
+
+        <div class="glasses">
+          <div class="glasses-wrapper">
+            <h4> New In </h4>
+            <img class="glasses-image" src="./assets/images-and-icons/images/s-glasses-collections/glasses-6.svg" alt="">
+            <img class="hover-image" src="./assets/images-and-icons/images/s-glasses-collections/user6.jpg" alt="">
+          </div>
+          <div class="glasses-name-and-price">
+            <h5 class="glasses-name"> Vincent Chase (Narrow) </h5>
+            <h5 class="price">
+              <p>$95.00</p>
+              <del> $100.00 USD </del>
+            </h5>
+          </div>
+        </div>
+
+        <div class="glasses">
+          <div class="glasses-wrapper">
+            <h4> Narrow Bridge </h4>
+            <img class="glasses-image" src="./assets/images-and-icons/images/s-glasses-collections/glasses-5.svg" alt="">
+            <img class="hover-image" src="./assets/images-and-icons/images/s-glasses-collections/user5.jpg" alt="">
+          </div>
+          <div class="glasses-name-and-price">
+            <h5 class="glasses-name"> John Jacobs (Medium) </h5>
+            <h5 class="price">
+              <p>$110.00</p>
+              <del> $115.00 USD </del>
+            </h5>
+          </div>
+        </div>
+
+        <div class="glasses">
+          <div class="glasses-wrapper">
+            <h4> Low Crest </h4>
+            <img class="glasses-image" src="./assets/images-and-icons/images/s-glasses-collections/glasses-2.svg" alt="">
+            <img class="hover-image" src="./assets/images-and-icons/images/s-glasses-collections/user2.jpg" alt="">
+          </div>
+          <div class="glasses-name-and-price">
+            <h5 class="glasses-name"> Bunning (Medium) </h5>
+            <h5 class="price">
+              <p>$85.00</p>
+            </h5>
+          </div>
+        </div>
+
+        <div class="glasses">
+          <div class="glasses-wrapper">
+            <h4> Wide Bridge </h4>
+            <img class="glasses-image" src="./assets/images-and-icons/images/s-glasses-collections/glasses-3.svg" alt="">
+            <img class="hover-image" src="./assets/images-and-icons/images/s-glasses-collections/user3.jpg" alt="">
+          </div>
+          <div class="glasses-name-and-price">
+            <h5 class="glasses-name"> Gifford (Wide) </h5>
+            <h5 class="price">
+              <p>$98.00</p>
+              <del> $100.00 USD </del>
+            </h5>
+          </div>
+        </div>
+
+        <div class="glasses">
+          <div class="glasses-wrapper">
+            <h4> Narrow Bridge </h4>
+            <img class="glasses-image" src="./assets/images-and-icons/images/s-glasses-collections/glasses-1.svg" alt="">
+            <img class="hover-image" src="./assets/images-and-icons/images/s-glasses-collections/user1.jpg" alt="">
+          </div>
+          <div class="glasses-name-and-price">
+            <h5 class="glasses-name"> Eckford (Extra Narrow) </h5>
+            <h5 class="price">
+              <p>$102.00</p>
+            </h5>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="glasses-list" id="content-lowest-price">
+
+        <div class="glasses">
+          <div class="glasses-wrapper">
+            <h4> Adjustable</h4>
+            <img class="glasses-image" src="./assets/images-and-icons/images/s-glasses-collections/glasses-5.svg" alt="">
+            <img class="hover-image" src="./assets/images-and-icons/images/s-glasses-collections/user1.jpg" alt="">
+          </div>
+          <div class="glasses-name-and-price">
+            <h5 class="glasses-name"> Gifford (Extra Narrow) </h5>
+            <h5 class="price">
+              <p>$102.00</p>
+              <del> $110.00 USD </del>
+            </h5>
+          </div>
+        </div>
+
+        <div class="glasses">
+          <div class="glasses-wrapper">
+            <h4> New In </h4>
+            <img class="glasses-image" src="./assets/images-and-icons/images/s-glasses-collections/glasses-4.svg" alt="">
+            <img class="hover-image" src="./assets/images-and-icons/images/s-glasses-collections/user2.jpg" alt="">
+          </div>
+          <div class="glasses-name-and-price">
+            <h5 class="glasses-name"> Vincent Chase (Narrow) </h5>
+            <h5 class="price">
+              <p>$95.00</p>
+              <del> $100.00 USD </del>
+            </h5>
+          </div>
+        </div>
+
+        <div class="glasses">
+          <div class="glasses-wrapper">
+            <h4> Narrow Bridge </h4>
+            <img class="glasses-image" src="./assets/images-and-icons/images/s-glasses-collections/glasses-2.svg" alt="">
+            <img class="hover-image" src="./assets/images-and-icons/images/s-glasses-collections/user3.jpg" alt="">
+          </div>
+          <div class="glasses-name-and-price">
+            <h5 class="glasses-name"> John Jacobs (Medium) </h5>
+            <h5 class="price">
+              <p>$110.00</p>
+              <del> $115.00 USD </del>
+            </h5>
+          </div>
+        </div>
+
+        <div class="glasses">
+          <div class="glasses-wrapper">
+            <h4> Low Crest </h4>
+            <img class="glasses-image" src="./assets/images-and-icons/images/s-glasses-collections/glasses-1.svg" alt="">
+            <img class="hover-image" src="./assets/images-and-icons/images/s-glasses-collections/user4.jpg" alt="">
+          </div>
+          <div class="glasses-name-and-price">
+            <h5 class="glasses-name"> Bunning (Medium) </h5>
+            <h5 class="price">
+              <p>$85.00</p>
+            </h5>
+          </div>
+        </div>
+
+        <div class="glasses">
+          <div class="glasses-wrapper">
+            <h4> Wide Bridge </h4>
+            <img class="glasses-image" src="./assets/images-and-icons/images/s-glasses-collections/glasses-6.svg" alt="">
+            <img class="hover-image" src="./assets/images-and-icons/images/s-glasses-collections/user5.jpg" alt="">
+          </div>
+          <div class="glasses-name-and-price">
+            <h5 class="glasses-name"> Gifford (Wide) </h5>
+            <h5 class="price">
+              <p>$98.00</p>
+              <del> $100.00 USD </del>
+            </h5>
+          </div>
+        </div>
+
+        <div class="glasses">
+          <div class="glasses-wrapper">
+            <h4> Narrow Bridge </h4>
+            <img class="glasses-image" src="./assets/images-and-icons/images/s-glasses-collections/glasses-3.svg" alt="">
+            <img class="hover-image" src="./assets/images-and-icons/images/s-glasses-collections/user6.jpg" alt="">
+          </div>
+          <div class="glasses-name-and-price">
+            <h5 class="glasses-name"> Eckford (Extra Narrow) </h5>
+            <h5 class="price">
+              <p>$102.00</p>
+            </h5>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="s-about" id="about">
+    <div class="content">
+      <img src="./assets/images-and-icons/images/s-about/girl.jpg" alt="">
+      <div class="text">
+        <h2> High Quality beautifully designed frames at an affordable pricing </h2>
+        <p>
+          Eyewear is an important accessory for many people, whether to correct vision problems or simply to complement
+          a personal style. However, finding high-quality and well-designed eyewear at an affordable price can be a
+          challenge. Fortunately, there are brands that are dedicated to offering the best of both worlds - superior
+          quality and affordable prices.
+        </p>
+        <p>
+          One brand that offers high-quality eyewear at affordable prices is known for its beautiful frame designs.
+          Every detail is carefully considered to create a unique and stylish appearance. These designs are perfect for
+          those who want to highlight their personality through their eyewear.
+        </p>
+        <p class="hidden-text">
+          In addition to attractive designs, the quality of the materials used to create the frames is also a priority.
+          Brands committed to offering high-quality eyewear opt for durable materials such as acetate and titanium.
+          These materials are resistant and durable, ensuring that the frames can last for years.
+        </p>
+        <p class="hidden-text">
+          Another important feature of high-quality eyewear is attention to detail in production. Brands that care about
+          the quality of their products are dedicated to ensuring that each step of production is done with precision
+          and care. This includes material selection, frame manufacturing, and even lens placement.
+        </p>
+        <a id="read-more" href="#"> Read More </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="wrapper">
+        <div class="pages">
+          <h2> Useful links </h2>
+          <div class="links">
+            <ul>
+              <li><a href="#"> Home </a></li>
+              <li><a href="#"> About Us </a></li>
+              <li><a href="#"> Shop All </a></li>
+              <li><a href="#"> Blog </a></li>
+              <li><a href="#"> Contact Us </a></li>
+              <li><a href="#"> FAQs </a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="pages">
+          <h2> Pages </h2>
+          <div class="links">
+            <ul>
+              <li><a href="#"> Privacy Policy </a></li>
+              <li><a href="#"> Style Guide </a></li>
+              <li><a href="#"> Licenses </a></li>
+              <li><a href="#"> Instructions </a></li>
+              <li><a href="#"> Changelog </a></li>
+              <li><a href="#"> Password Protected </a></li>
+              <li><a href="#"> Error 404 </a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="pages">
+          <h2> Categories </h2>
+          <div class="links">
+            <ul>
+              <li><a href="#"> Classics </a></li>
+              <li><a href="#"> Reading </a></li>
+              <li><a href="#"> Degree </a></li>
+              <li><a href="#"> Blue light </a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="pages">
+          <h2> Contact </h2>
+          <div class="links">
+            <ul>
+              <li>
+                <a href="#"> <img src="./assets/images-and-icons/icons/footer/location.svg" alt="">
+                  United States
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./assets/images-and-icons/icons/footer/phone.svg" alt="">
+                  12 23 45678-9012
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./assets/images-and-icons/icons/footer/email.svg" alt="">
+                  blink@gmail.com
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="pages">
+          <h2> Follow on </h2>
+          <div class="links">
+            <a href="#"><img src="./assets/images-and-icons/icons/footer/facebook.svg" alt=""></a>
+            <a href="#"><img src="./assets/images-and-icons/icons/footer/instagram.svg" alt=""></a>
+            <a href="#"><img src="./assets/images-and-icons/icons/footer/twitter.svg" alt=""></a>
+            <a href="#"><img src="./assets/images-and-icons/icons/footer/pinterest.svg" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
